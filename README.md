@@ -1,4 +1,3 @@
 # IgnitedChaos.github.io
-Learning things about web design
-README
-#This is a test that I am creating so I can learn more about Web Design. 
+Learning things about web design. Yeah, so don't mind. Project started on Khan Academy!
+
