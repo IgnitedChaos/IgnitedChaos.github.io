@@ -1,37 +1,130 @@
-## Welcome to GitHub Pages
+# IgnitedChaos.github.io
+Learning things about web design
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            h1{
+                background-color:rgb(46, 196, 199);
+                font-family:cursive;
+                text-shadow: 1px 1px;
+                color:red;
+            }
+            h2{
+                background-color:rgb(17, 158, 219);
+                font-family:cursive;
+            }
+            h3{
+                text-shadow:1px 1px;
+                color:rgb(122, 10, 4);
+                font-weight:italic ;
+            }
+            h6{
+                color:rgb(97, 75, 70);
+        
+            }
+            h4{
+                text-shadow:1px 1px;
+                color:grey;
+                font-weight:italic ;
+                background-color:black;
+            }
+            body{
+                background-color:rgb(122, 6, 6);
+            }
+            /* The sidebar menu */
+            .sidenav {
+             height: 100%; /* Full-height: remove this if you want "auto" height */
+             width: 160px; /* Set the width of the sidebar */
+             position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+             z-index: 1; /* Stay on top */
+            top: 0; /* Stay at the top */
+             left: 0;
+            background-color: #111; /* Black */
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 20px;
+               }
 
-You can use the [editor on GitHub](https://github.com/IgnitedChaos/IgnitedChaos.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+            /* The navigation menu links */
+            .sidenav a {
+             padding: 6px 8px 6px 16px;
+            text-decoration: none;
+             font-size: 25px;
+             color: #818181;
+            display: block;
+            }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+          /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+        color: #f1f1f1;
+         }
 
-### Markdown
+        /* Style page content */
+        .main {
+        margin-left: 160px; /* Same as the width of the sidebar */
+        padding: 0px 10px;
+        }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        }
+        </style>
+  
+    </head>
+    
+    <body>
+        <div class="sidenav">
+            <a href="#first-post">First post!</a>
+            <a href="#second-post">Second post!</a>
+            <a href="#third-post"> Third post!</a>
+            <a href="fourth-post"> Fourth post!</a>
+        </div>
+        
+        <div class="main">
+            <h1>IgnitedChaos's blog</h1>
+      
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IgnitedChaos/IgnitedChaos.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            <h3>Contents</h3>
+            <ul>
+            <li><a href="#first-post"> First post!</a></li>
+            <li><a href="#second-post">Second post!</a></li>
+            <li><a href="#third-post">Third post!</a></li>
+            <li><a href="#fourth-post">Fourth post</a></li>
+            </ul>
+        
+            <h2 id="first-post">First post</h2>
+            <h5>October 15, 2020</h5>
+        
+            <p>Yippee! I am starting to learn computer programimng usning Khan Academy! I am starting off with Web Desigh, and then when I am done with that, I will start on JS! Wish me luck!</p>
+            <h2 id="second-post">Second post</h2>
+            <h5>October 17, 2020</h5>
+        
+            <p>Now I have to create a blog. Me no like creating blogs. {EDIT} <em>If you knew what was good, you would not continue reading.</em></p>
+            <h2 id="third-post">Third post</h2>
+            <h5>October 19, 2020</h5>
+            <p> It must be me. Yeah, it has to be my imagination, but I feel that I should say something about it. Every time I go on Khan Academy to work on this blog, it starts glitching out. Super weird, but kinda cool too!
+            <h2 id="fourth-post">Fourth post</h2>
+            <h5>October 20, 2020</h5>
+         <p>I don't know anymore. I don't think that it is a glitch. It knows my name. It knows where I live. I'm scared. I wonder how much longer until it finds me. I know it will find me. It promised, and it <em> always</em> keeps it's promises.</p>
+         <br><br><br><br><br><br><br><br><br><br><br><br>
+         <h4 id="fifth-post">Please leave</h4>
+        <p>If you leave. he wont find you. he found me. I CAn hear hIm bREathing. I'm scARed. Please EXit n0W. D0nt enD up liKe mE. I w0ndeR when hE will fInd Me..</p>
+       
+        <br><br><br><br><br><br>
+            <h6>Are you still there?</h6>
+            <h6>I told you to leave</h6>
+            <h6>He will find us</h6>
+            <h6>Please leave</h6>
+            <h6>Before he finds you too...</h6>
+       
+        </div>
+        
+    </body>
+   
+ 
+</html>
